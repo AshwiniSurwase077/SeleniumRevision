@@ -13,6 +13,7 @@ driver.get("https://www.facebook.com/\"");
 
 driver.findElement(By.xpath("//input[@name='email']")).sendKeys("abs");
 
+//print the Enter the user name
 String value=driver.findElement(By.xpath("//input[@name='email']")).getAttribute("value");
 System.out.println(value);
 }

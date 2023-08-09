@@ -11,6 +11,7 @@ public static void main(String[] args)
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.facebook.com/");
 
+//logo is displayed or not
 boolean result=driver.findElement(By.xpath("//img[@class='fb_logo _8ilh img']")).isDisplayed();
 System.out.println(result);
 }
