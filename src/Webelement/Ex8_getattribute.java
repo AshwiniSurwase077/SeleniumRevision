@@ -4,10 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Ex8_getattribute
+import Setup.S1;
+
+public class Ex8_getattribute extends S1
 {
 public static void main(String[] args) 
 {
+setup();
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.facebook.com/\"");
 
