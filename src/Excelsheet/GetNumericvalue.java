@@ -10,7 +10,7 @@ public class GetNumericvalue
 {
 public static void main(String[] args) throws EncryptedDocumentException, IOException 
 {
-FileInputStream file=new FileInputStream("C:\\Users\\Nexas\\Downloads\\Ashwini-WPS Office.xlsx");
+	FileInputStream file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");
 
 double value = WorkbookFactory.create(file).getSheet("Sheet1").getRow(0).getCell(1).getNumericCellValue();
 System.out.println(value);

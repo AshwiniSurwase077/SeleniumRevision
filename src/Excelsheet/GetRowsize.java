@@ -10,7 +10,7 @@ public class GetRowsize
 {
 public static void main(String[] args) throws EncryptedDocumentException, IOException 
 {
-FileInputStream file=new FileInputStream("C:\\Users\\Nexas\\Downloads\\Ashwini-WPS Office.xlsx");
+	FileInputStream file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");
 
 int rowsize = WorkbookFactory.create(file).getSheet("Sheet1").getLastRowNum()+1;
 System.out.println(rowsize);

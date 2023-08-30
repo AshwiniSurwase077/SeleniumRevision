@@ -18,7 +18,7 @@ public static void main(String[] args) throws EncryptedDocumentException, IOExce
 {
 //S1.setup();
 //WebDriver driver=new ChromeDriver();
-FileInputStream file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");
+	FileInputStream file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");
 //String value= WorkbookFactory.create(file).getSheet("Sheet1").getRow(0).getCell(0).getStringCellValue();
 //System.out.println(value);
 

@@ -9,6 +9,13 @@
 		   <exclude name="TC2"/>
 	  </methods>
       </class>
+      <class name="TestNG.Sample2">
+		  <methods>
+			  <include name="TC4">
+				  
+			  </include>
+		  </methods>
+	  </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

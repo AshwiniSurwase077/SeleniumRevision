@@ -8,13 +8,11 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-
 public class GetAllDataInARow 
 {
-public static void main(String[] args) throws EncryptedDocumentException, IOException 
+public static void main(String[] args) throws InterruptedException,EncryptedDocumentException, IOException 
 {
-FileInputStream	file=new FileInputStream("C:\\Users\\Nexas\\Downloads\\Ashwini-WPS Office.xlsx");
-
+FileInputStream	file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");
  Sheet sh = WorkbookFactory.create(file).getSheet("Sheet1");
  
  int lastcellindex = sh.getRow(0).getLastCellNum()-1;

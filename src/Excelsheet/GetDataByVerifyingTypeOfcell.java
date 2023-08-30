@@ -12,7 +12,7 @@ public class GetDataByVerifyingTypeOfcell
 {
 public static void main(String[] args) throws EncryptedDocumentException, IOException 
 {
-FileInputStream file=new FileInputStream("C:\\Users\\Nexas\\Downloads\\Ashwini-WPS Office.xlsx");	
+	FileInputStream file=new FileInputStream("E:\\Manual_Notes\\Ashwini-WPS Office.xlsx");	
 
 Cell data = WorkbookFactory.create(file).getSheet("Sheet1").getRow(2).getCell(2);
 CellType s1=data.getCellType();
